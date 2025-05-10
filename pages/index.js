@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function HomePage() {
   useEffect(() => {
-    document.title = "Welcome | Your Name";
+    document.title = "Welcome | zinko";
   }, []);
 
   return (
@@ -16,7 +16,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hello, I'm <span className="text-indigo-500">Your Name</span>
+          Hello, I'm <span className="text-indigo-500">zinko</span>
         </motion.h1>
         <motion.p
           className="text-xl md:text-2xl max-w-2xl text-gray-300 mb-6"
@@ -24,7 +24,7 @@ export default function HomePage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          I build things for the web — clean, fast, and beautiful.
+          I code shit, Technology Engineer (Kinda).
         </motion.p>
         <motion.div
           className="flex gap-4"
@@ -39,7 +39,7 @@ export default function HomePage() {
             Contact Me
           </a>
           <a
-            href="/resume.pdf"
+            href="/"
             target="_blank"
             className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 transition rounded"
           >
@@ -55,13 +55,13 @@ export default function HomePage() {
             Want to work together or just say hi? Reach out through any of the platforms below.
           </p>
           <div className="flex justify-center gap-6">
-            <a href="mailto:you@example.com" aria-label="Email">
+            <a href="mailto:zinko@orcbin.com" aria-label="Email">
               <Mail className="w-6 h-6 hover:text-indigo-400 transition" />
             </a>
-            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+            <a href="https://github.com/zinkowinko" target="_blank" aria-label="GitHub">
               <Github className="w-6 h-6 hover:text-indigo-400 transition" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+            <a href="https://discord.com/users/1215148880052625478" target="_blank" aria-label="Discord">
               <Linkedin className="w-6 h-6 hover:text-indigo-400 transition" />
             </a>
           </div>
