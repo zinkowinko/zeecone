@@ -34,7 +34,7 @@ export default function HomePage() {
           transition={{ delay: 1, duration: 1 }}
         >
           <a
-            href="contact"
+            href="#contact"
             className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold transition-all duration-300"
           >
             Contact Me
@@ -56,8 +56,13 @@ export default function HomePage() {
             <a href="https://github.com/zinkowinko" target="_blank" aria-label="GitHub">
               <Github className="w-8 h-8 hover:text-indigo-400 transition-all" />
             </a>
+            {/* Discord Icon */}
             <a href="https://discord.com/users/1215148880052625478" target="_blank" aria-label="Discord">
-              <Discord className="w-8 h-8 hover:text-indigo-400 transition-all" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/66/Discord_logo_2023.svg"
+                alt="Discord"
+                className="w-8 h-8 hover:text-indigo-400 transition-all"
+              />
             </a>
           </div>
         </div>
