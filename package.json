@@ -7,7 +7,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@shadcn/ui": "^1.0.0",
     "autoprefixer": "^10.4.12",
     "framer-motion": "^10.16.2",
     "lucide-react": "^0.297.0",
